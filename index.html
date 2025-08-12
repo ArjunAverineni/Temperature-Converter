@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "container_main">
+        <section class = container>
+            <h1>Temperature Conversion</h1>
+            <input type = "number" class = "line_edit" id = "input" placeholder="Enter Temp. In C or F">
+            
+            <div class = radio_style>
+                <input type="radio" name="unit" id="CtoF"> Celsius to Fahrenheit
+            </div>
+            
+            <div class = radio_style style = "margin-top: -10px; margin-bottom: 40px;">
+                <input type="radio" name="unit" id="FtoC"> Fahrenheit to Celsius
+                <br>
+            </div>
+            
+            <button id = "convert" class = "button_style">Convert -></button>
+
+        </section>
+
+        <section>
+            <section class = container_2>
+                <h1 style = "font-size: 25px;">Converted Temperature:</h1>
+                <p id = "display" class = "p_text">C/F</p>
+            </section>
+
+            <section class = container_rating>
+                <h1 style = "font-size: 20px; margin-top: 5px;">Please Rate Us</h1>
+                <div>
+                    <button class = "button_style1" id = "up" style = "width: 50px; height: 50px; margin-top: -10px; margin-left:0px; font-size: 25px;">👍</button>
+                    <button class = "button_style1" id = "down" style = "width: 50px; height: 50px; margin-top: -10px; margin-left: 25px; font-size: 25px;">👎</button>
+                </div>
+            </section>
+            
+            <button class = button_style1 id = "link"><h1 style = "font-size: 20px; color: black;">Visit Github Repo</h1></button>
+        </section>
+
+    </div>
+
+    <script src = "index.js"></script>
+</body>
+</html>
